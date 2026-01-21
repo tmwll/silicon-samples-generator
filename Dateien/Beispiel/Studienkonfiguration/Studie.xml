@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Fragen>
+  <Frage id="q1">
+    <Text>Welche der folgenden Medienmarken kennen Sie?</Text>
+    <Antwortoptionen>
+      <Option id="1">Kenne die Marke</Option>
+      <Option id="2">Kenne die Marke nicht</Option>
+    </Antwortoptionen>
+    <Themen zufaellig="ja">
+      <Thema id="1">Die Zeit</Thema>
+      <Thema id="2">Vox</Thema>
+    </Themen>
+  </Frage>
+
+  <Frage id="q2" uebergeordnete_frage="q1" uebergeordnete_antwortoption="1" uebergeordnete_themen_limit="10" uebergeordnete_themen_zufaellig="ja">
+    <Text>Nun geht es um {{thema_prev}}: Wenn Sie an {{thema_prev}} denken, wie sehr stimmen sie den folgenden Aussagen zu?</Text>
+    <Antwortoptionen>
+      <Option id="1">Stimme überhaupt nicht zu</Option>
+      <Option id="2">Stimme nicht zu</Option>
+      <Option id="3">Stimme eher nicht zu</Option>
+      <Option id="4">Unentschieden</Option>
+      <Option id="5">Stimme eher zu</Option>
+      <Option id="6">Stimme zu</Option>
+      <Option id="7">Stimme voll und ganz zu</Option>
+    </Antwortoptionen>
+    <Themen>
+      <Thema id="A">Die Medienmarke ist transparent</Thema>
+      <Thema id="B">Die Medienmarke ist ehrlich</Thema>
+    </Themen>
+  </Frage>
+</Fragen>

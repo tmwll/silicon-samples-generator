@@ -1,3 +1,19 @@
+### Silicon-Samples-Generator spezifisch
+# Logs Ordner ignorieren, aber .gitkeep nicht
+logs/*
+!logs/.gitkeep
+# Dateien Ordner ignorieren, aber .gitkeep und Beispiel Ordner nicht
+Dateien/*
+!Dateien/.gitkeep
+!Dateien/Beispiel/
+!Dateien/Beispiel/**
+
+# .env Datei ignorieren
+# sollte bereits durch Standard-Python .gitignore abgedeckt sein
+# Sicherheitshalber hier nochmal explizit
+.env
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

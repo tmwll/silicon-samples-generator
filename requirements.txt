@@ -1,0 +1,19 @@
+# Requires Python >=3.11
+python-dotenv
+streamlit
+pandas
+tabulate
+requests
+beautifulsoup4
+lxml
+html5lib
+pdfplumber
+colorlog
+typing_extensions
+langchain-core
+langchain-openai
+langchain-google-genai
+langchain-deepseek
+langchain-mistralai
+langgraph
+defusedxml

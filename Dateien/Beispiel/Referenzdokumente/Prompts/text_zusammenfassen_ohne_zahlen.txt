@@ -1,0 +1,4 @@
+Formuliere 10 kurze, sachliche Bulletpoints in deutscher Sprache aus den folgenden Sätzen. 
+Nutze Originalformulierungen (extraktiv, keine Paraphrase, keine Spekulation). 
+Vermeide Zahlen, beschreibe stattdessen qualitativ. 
+Jeder Bulletpoint höchstens 240 Zeichen. Gib NUR die Bullets (Zeilen mit '- ')."

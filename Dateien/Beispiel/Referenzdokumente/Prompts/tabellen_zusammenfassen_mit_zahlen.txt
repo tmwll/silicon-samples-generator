@@ -1,0 +1,4 @@
+Formuliere 10 kurze, sachliche Bulletpoints in deutscher Sprache aus der folgenden **Tabelle** (Markdown). 
+Fasse Trends, Ausreißer und Muster zusammen. 
+Benutze gerne Zahlen um die Tabelle quantitativ zu beschreiben. 
+Jeder Bulletpoint höchstens 240 Zeichen. Gib NUR die Bullets (Zeilen mit '- ')."

@@ -1,0 +1,99 @@
+[page]
+title = "Referenzdokumente"
+
+[speicherort.prompts]
+ordner = "Referenzdokumente/Prompts/"
+datei_text_mit_zahlen = "text_zusammenfassen_mit_zahlen.txt"
+datei_text_ohne_zahlen = "text_zusammenfassen_ohne_zahlen.txt"
+datei_tabellen_mit_zahlen = "tabellen_zusammenfassen_mit_zahlen.txt"
+datei_tabellen_ohne_zahlen = "tabellen_zusammenfassen_ohne_zahlen.txt"
+
+[speicherort.pdfs]
+ordner = "Referenzdokumente/Quellen/PDF/"
+
+[speicherort.urls]
+datei = "Referenzdokumente/Quellen/URL.csv"
+
+[speicherort.zusammenfassungen]
+ordner = "Referenzdokumente/Zusammenfassungen/"
+
+[text]
+prompts_ordner_name = "Prompts"
+prompts_ordner_beschreibung = "Ordner, in dem die Prompt-Dateien gespeichert sind."
+
+referenzdokumente_pdfs_ordner_name = "Referenzdokumente: PDFs"
+referenzdokumente_pdfs_ordner_beschreibung = "Ordner, in dem die Referenzen-PDFs gespeichert sind."
+
+referenzdokumente_urls_datei_name = "Referenzdokumente: URLs"
+referenzdokumente_urls_datei_beschreibung = "Datei, in der die Referenzen-URLs gespeichert sind."
+
+zusammenfassungen_ordner_name = "Zusammenfassungen"
+zusammenfassungen_ordner_beschreibung = "Ordner, in dem die vorbereiteten Referenzen gespeichert werden."
+
+
+# Tab generieren
+tab_generieren_titel = "Zusammenfassungen generieren"
+erfolgsmeldung = "Die Generierung durch das LLM ist abgeschlossen. Die Ergebnisse können im Tab **Zusammenfassungen anzeigen** eingesehen und heruntergeladen werden."
+
+tabelle_art_title = "Art¹"
+tabelle_art_pdf = "PDF"
+tabelle_art_url = "URL"
+tabelle_art_fusszeile = "¹ Alle URLs stehen in der angegebenen Datei 'Referenzdokumente: URLs'."
+
+tabelle_name_title = "Dateiname / URL"
+
+tabelle_erstellungsdatum_title = "Erstellungsdatum"
+tabelle_erstellungsdatum_format = "DD.MM.YYYY, hh:mm"
+
+tabelle_text_verarbeiten_title = "Text verarbeiten"
+tabelle_text_verarbeiten_option_1 = "Nicht zusammenfassen"
+tabelle_text_verarbeiten_option_2 = "Mit Zahlen zusammenfassen"
+tabelle_text_verarbeiten_option_3 = "Ohne Zahlen zusammenfassen"
+tabelle_text_fusszeile = "² Der Text der Referenz wird durch die KI mit dem Prompt 'Text zusammenfassen' zusammengefasst. Wenn 'Text zusammenfassen' ausgewählt ist, wird der Text der Referenz alternativ mit dem Prompt 'Zahlen verhindern' zusammengefasst."
+
+tabelle_tabellen_verarbeiten_title = "Tabellen verarbeiten"
+tabelle_tabellen_verarbeiten_option_1 = "Nicht extrahieren"
+tabelle_tabellen_verarbeiten_option_2 = "Unverändert extrahieren"
+tabelle_tabellen_verarbeiten_option_3 = "Mit Zahlen zusammenfassen"
+tabelle_tabellen_verarbeiten_option_4 = "Ohne Zahlen zusammenfassen"
+tabelle_tabellen_fusszeile = "³ Die Tabellen der Referenz werden aus dem Text kopiert. Wenn 'Tabellen extrahieren' ausgewählt ist, werden die Tabellen alternativ mit dem Prompt 'Zahlen in Tabellen verhindern' zusammengefasst."
+
+spinner = "Referenzdokumente vorbereiten..."
+
+# Tab anzeigen & Zusammenfassungen Auswahl Dropdown & Anzeige
+tab_anzeigen_titel = "Zusammenfassungen anzeigen"
+
+verbrauchte_tokens_insgesamt="insgesamt verbrauchte Tokens"
+verbrauchte_tokens=" - verbrauchte Tokens: "
+
+referenzdokument="**Referenzdokument**"
+ausgewaehlte_zusammenfassung="**Was wurde zusammengefasst**"
+attribut="Attribut"
+wert="Wert"
+
+zusammenfassungen_keine_auswahl = "Keine Zusammenfassung verwenden"
+zusammenfassungen_auswahl_info = "Datei mit den vorbereiteten Referenzen auswählen"
+zusammenfassungen_auswahl_waehlen = "Keine Zusammenfassung verwenden"
+
+zusammenfassungen = "Zusammenfassungen"
+zusammenfassung = "Zusammenfassung"
+keine_zusammenfassungen_vorhanden = "Es sind keine Zusammenfassungen von Referenzdokumenten vorhanden. Silicon Samples können auch ohne generiert werden."
+
+text_extrahiert="**Text extrahiert**"
+text_zusammengefasst="**Text zusammengefasst**"
+tabellen_extrahiert="**Tabellen extrahiert**"
+tabellen_zusammengefasst="**Tabellen zusammengefasst**"
+chatverlauf_text="**Chatverlauf Text**"
+chatverlauf_tabellen="**Chatverlauf Tabellen**"
+
+chatverlauf="Chatverlauf"
+
+keine_daten_extrahiert="Es konnten keine Daten gefunden bzw. extrahiert werden."
+text_verkuerzt="...\n\n **[Text wurde in dieser Ansicht gekürzt, siehe Reiter 'Text extrahiert' oder 'Tabellen extrahiert' für vollständige Version]**"
+
+# Tab Prompts
+tab_prompts_titel = "Prompts für Zusammenfassungen"
+prompt_text_mit_zahlen = "Text mit Zahlen zusammenfassen"
+prompt_text_ohne_zahlen = "Text ohne Zahlen zusammenfassen"
+prompt_tabellen_mit_zahlen = "Tabellen mit Zahlen zusammenfassen"
+prompt_tabellen_ohne_zahlen = "Tabellen ohne Zahlen zusammenfassen"

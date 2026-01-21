@@ -1,0 +1,60 @@
+[page]
+title = "Silicon-Samples-Generator"
+
+[speicherort.prompts]
+ordner = "Silicon-Samples/Prompts/"
+datei_intro_ohne_persona_mit_referenzdokumenten = "intro_ohne_persona_mit_referenzdokumenten.txt"
+datei_intro_ohne_persona_ohne_referenzdokumente = "intro_ohne_persona_ohne_referenzdokumente.txt"
+datei_intro_mit_persona_mit_referenzdokumenten = "intro_mit_persona_mit_referenzdokumenten.txt"
+datei_intro_mit_persona_ohne_referenzdokumente = "intro_mit_persona_ohne_referenzdokumente.txt"
+
+[speicherort.personas]
+datei = "Silicon-Samples/Personas/Personas.csv"
+
+[speicherort.siliconsamples]
+ordner = "Silicon-Samples/Antworten/"
+
+
+[text]
+prompts_ordner_name = "Prompts"
+prompts_ordner_beschreibung = "Ordner, in dem die Prompt-Dateien gespeichert sind."
+
+personas_dateiname = "Personas"
+personas_dateiname_beschreibung = "CSV-Datei, in der die Personas gespeichert ist."
+
+siliconsamples_ordner_name = "Silicon Samples"
+siliconsamples_ordner_beschreibung = "Ordner, in dem die Silicon Samples gespeichert sind."
+
+# Tab generieren
+
+tab_generieren_titel = "Silicon Samples generieren"
+erfolgsmeldung = "Die Generierung durch das LLM ist abgeschlossen. Die Ergebnisse können im Tab **Silicon Samples anzeigen** eingesehen und heruntergeladen werden."
+
+spinner = "Silion Samples generieren..."
+
+# Silicon Samples anzeigen & Auswahl Dropdown & Anzeige
+
+tab_anzeigen_titel="Silicon Samples anzeigen"
+
+verbrauchte_tokens="verbrauchte Tokens"
+persona="Mit Persona generiert"
+persona_details="Persona"
+
+siliconsamples_keine_auswahl = "Keine Silion Samples verwenden"
+siliconsamples_auswahl_info = "Datei mit den generierten Silion Samples auswählen"
+siliconsamples_auswahl_waehlen = "Keine Silion Samples verwenden"
+
+keine_siliconsamples_vorhanden = "Es sind keine Silion Samples vorhanden."
+
+rohdaten = "Datenprovenienz"
+fragen = "Fragen"
+zusammenfassungen = "Zusammenfassungen"
+antworten = "Antworten"
+chatverlauf = "Chatverlauf"
+
+# Tab Prompts
+tab_prompts_titel = "Prompts für Silicon Samples"
+prompt_intro_ohne_persona_mit_referenzdokumenten = "Fragen-Intro ohne Persona mit Referenzen"
+prompt_intro_ohne_persona_ohne_referenzdokumente = "Fragen-Intro ohne Persona ohne Referenzen"
+prompt_intro_mit_persona_mit_referenzdokumenten = "Fragen-Intro mit Persona mit Referenzen"
+prompt_intro_mit_persona_ohne_referenzdokumente = "Fragen-Intro mit Persona ohne Referenzen"

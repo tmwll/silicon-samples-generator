@@ -1,0 +1,14 @@
+[page]
+title = "Studienkonfiguration"
+
+[speicherort]
+ordner = "Studienkonfiguration/"
+datei = "Studie.xml"
+
+[text]
+dateiname = "Studienkonfiguration"
+dateibeschreibung = "XML-Datei, in der die Studienkonfiguration gespeichert ist."
+tab_xml_titel="XML-Datei (vor Import)"
+tab_xml_info="Inhalt der XML-Datei."
+tab_objekte_titel="Studienkonfiguration-Objekte (nach Import)"
+tab_objekte_info="Transformierte Datenobjekte nach Import."

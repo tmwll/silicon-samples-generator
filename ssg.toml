@@ -1,0 +1,45 @@
+[[komponenten]]
+path = "src/komponenten/startseite/startseite.py"
+config = "src/komponenten/startseite/startseite.toml"
+active = true
+grouped = false
+
+[[komponenten]]
+path = "src/komponenten/studienkonfiguration/studienkonfiguration.py"
+config = "src/komponenten/studienkonfiguration/studienkonfiguration.toml"
+active = true
+grouped = true
+
+[[komponenten]]
+path = "src/komponenten/referenzdokumente/referenzdokumente.py"
+config = "src/komponenten/referenzdokumente/referenzdokumente.toml"
+active = true
+grouped = true
+
+[[komponenten]]
+path = "src/komponenten/siliconsamplesgenerator/siliconsamplesgenerator.py"
+config = "src/komponenten/siliconsamplesgenerator/siliconsamplesgenerator.toml"
+active = true
+grouped = true
+
+[[komponenten]]
+path = "src/komponenten/admin/admin.py"
+config = "src/komponenten/admin/admin.toml"
+active = false
+grouped = false
+
+[[komponenten]]
+path = "src/komponenten/auswertung/auswertung.py"
+config = "src/komponenten/auswertung/auswertung.toml"
+active = false
+grouped = true
+
+[text]
+session_startzeit = "%Y%m%d-%H%M%S"
+konfiguration_titel = "⚙️ Konfiguration"
+
+steuerung_titel = "✨ Steuerung"
+steuerung_start_text = "Start"
+steuerung_start_icon = "▶️"
+steuerung_abbruch_text = "Abbruch"
+steuerung_abbruch_icon = "🔁"
